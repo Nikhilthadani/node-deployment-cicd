@@ -12,7 +12,7 @@ app.get("/api/user", (req, res) => {
 });
 
 app.get("/api/home", (req, res) => {
-  return res.send("Welcome to API Home, try running api routes");
+  return res.send("Welcome to API Home!, try running api routes");
 });
 
 const PORT = process.env.PORT || 5000;
